@@ -80,7 +80,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
 
               return (
 
-                <div className="text-sm font-semibold leading-6 text-red-400 hover:text-red-400"  >
+                <div >
                   <Linklg
 
                     page={item.name}
@@ -123,7 +123,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
 
                     return (
 
-                      <div className="block px-3 py-2 -mx-3 text-base font-semibold leading-7 text-gray-900 rounded-lg hover:bg-red-400"  onClick={() => NavicationOnClick()}>
+                      <div  onClick={() => NavicationOnClick()}>
                         <Linksm
 
                           page={item.name}
