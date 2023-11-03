@@ -12,7 +12,7 @@ const index = ({ setSelectedPage }: Props) => {
 
 
   return (
-    <motion.div onViewportEnter={() => setSelectedPage(SelectedPage.Gallary)} id='gallary'>
+    <motion.div onViewportEnter={() => setSelectedPage(SelectedPage.Gallery)} id='gallery'>
 
  
       <Item />

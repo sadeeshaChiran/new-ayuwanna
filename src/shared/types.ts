@@ -1,9 +1,9 @@
 export enum SelectedPage {
   Home = "home",
   Treatments = "treatments",
-  Package = "package",
+  Packages = "packages",
   Retreats = "retreats",
-  Gallary = "gallary",
+  Gallery = "gallery",
   Another = "another",
 
   

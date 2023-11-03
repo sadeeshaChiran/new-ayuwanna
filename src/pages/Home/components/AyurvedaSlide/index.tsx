@@ -25,7 +25,7 @@ const index = () => {
         <div className='AyurvedaSlide-background'>
 
 
-          <motion.div className=' grid content-center h-screen lg:ms-10 lg:me-10 ms-5 me-5'>
+          <motion.div className='grid content-center h-screen  lg:ms-10 lg:me-10 ms-5 me-5'>
             <motion.h1
               initial="hidden"
               whileInView="visible"
@@ -51,7 +51,7 @@ const index = () => {
                     hidden: { opacity: 0, x: 20 },
                     visible: { opacity: 1, x: 0 },
                   }}
-                  className='font-serif text-base text-justify text-zinc-200 sm:text-3xl lg:text-xl me-0 ms-0 sm:me-16 sm:ms-16 lg:me-0 lg:ms-0'>
+                  className='text-base text-justify  text-zinc-200 sm:text-3xl lg:text-xl me-0 ms-0 sm:me-16 sm:ms-16 lg:me-0 lg:ms-0'>
                   {item.about}
                 </motion.p>
                 <br />

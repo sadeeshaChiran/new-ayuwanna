@@ -15,7 +15,7 @@ const index = ({ setSelectedPage }: Props) => {
  
 
   return (
-    <motion.div onViewportEnter={() => setSelectedPage(SelectedPage.Package)} id="package" >
+    <motion.div onViewportEnter={() => setSelectedPage(SelectedPage.Packages)} id="packages" >
 
 
       <Item />

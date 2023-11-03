@@ -38,11 +38,11 @@ const index = () => {
                         hidden: { opacity: 0, y: -80 },
                         visible: { opacity: 1, y: 0 },
                     }}
-                    className="text-5xl font-bold text-center text-gray-900 m-10 ">
-                        Gallary
+                    className="m-10 text-5xl font-bold text-center text-gray-900 ">
+                        Gallery
                         </motion.h2>
 
-                    <div className="gap-y-12 space-y-4 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-6 mt-20">
+                    <div className="mt-20 space-y-4 gap-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-6">
                         {callouts.map((callout) => (
                             <motion.div
                                 className="relative group"

@@ -53,7 +53,7 @@ const index = () => {
     return (
 
         <div className="package-background py-14 sm:py-20">
-            <div className="px-6 mx-auto max-w-7xl lg:px-8 mt-2">
+            <div className="px-6 mx-auto mt-2 max-w-7xl lg:px-8">
                 <motion.div
                     initial="hidden"
                     whileInView="visible"
@@ -64,7 +64,7 @@ const index = () => {
                         visible: { opacity: 1, y: 0 },
 
                     }}
-                    className="mx-auto text-center package-top-background p-20">
+                    className="p-20 mx-auto text-center package-top-background">
                     <motion.h2
                         initial="hidden"
                         whileInView="visible"
@@ -75,7 +75,7 @@ const index = () => {
                             visible: { opacity: 1, y: 0 },
 
                         }}
-                        className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">{Header.topic}</motion.h2>
+                        className="text-4xl font-bold tracking-tight text-white sm:text-5xl">{Header.topic}</motion.h2>
                     <motion.p
                         initial="hidden"
                         whileInView="visible"
@@ -86,21 +86,21 @@ const index = () => {
                             visible: { opacity: 1, y: 0 },
 
                         }}
-                        className="mt-10 font-serif text-xl sm:text-2xl text-black">
+                        className="mt-10 font-serif text-xl text-gray-50 sm:text-2xl">
                         {Header.description}
                     </motion.p>
                 </motion.div>
 
-                <div className=' grid grid-cols sm:grid-cols-2 border-t pt-10 border-gray-200 mt-10 sm:mt-16 sm:pt-16'>
+                <div className='grid pt-10 mt-10 border-t border-gray-200 grid-cols sm:grid-cols-2 sm:mt-16 sm:pt-16'>
 
 
-                    <div className="grid max-w-2xl grid-cols-1  mx-auto  gap-x-24 gap-y-6 sm:me-10  lg:mx-0 lg:max-w-none ">
+                    <div className="grid max-w-2xl grid-cols-1 mx-auto gap-x-24 gap-y-6 sm:me-10 lg:mx-0 lg:max-w-none ">
 
 
 
                         {posts.map((post) => (
                             <motion.article
-                                className="flex flex-col items-center justify-between max-w-xl p-5 border-2 shadow-2xl rounded-3xl border-rose-600 package-item-background"
+                                className="flex flex-col items-center justify-between max-w-xl p-5 text-white shadow-xl rounded-3xl package-item-background hover:text-gray-300"
                                 initial="hidden"
                                 whileInView="visible"
                                 viewport={{ once: true, amount: 0.4 }}
@@ -116,7 +116,7 @@ const index = () => {
 
 
                                     <motion.h3
-                                        className="mt-3 text-2xl text-center font-bold text-gray-900 group-hover:text-gray-600"
+                                        className="mt-3 text-2xl font-bold text-center "
                                         initial="hidden"
                                         whileInView="visible"
                                         viewport={{ once: true, amount: 0.4 }}
@@ -150,7 +150,7 @@ const index = () => {
                                 visible: { opacity: 1, y: 0 },
 
                             }}
-                            className='grid mt-7 sm:mt-0 content-center h-full opacity-80'>
+                            className='grid content-center h-full mt-7 sm:mt-0 opacity-80'>
                             <img className='w-full h-full max-h-screen ' src={Image} alt="" />
                         </motion.div>
                     </div>

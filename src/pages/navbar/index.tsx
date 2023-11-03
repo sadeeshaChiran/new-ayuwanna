@@ -16,9 +16,9 @@ type Props = {
 const navigation = [
   { name: 'Home', href: 'home', current: true },
   { name: 'Treatments', href: 'treatments', current: false },
-  { name: 'Package', href: 'package', current: false },
+  { name: 'Packages', href: 'package', current: false },
   { name: 'Retreats', href: 'retreats', current: false },
-  { name: 'Gallary', href: 'gallary', current: false },
+  { name: 'Gallery', href: 'gallary', current: false },
   { name: '', href: 'another', current: false },
 
 
@@ -64,7 +64,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
           <div className="fixed lg:hidden right-6">
             <button
               type="button"
-              className=" inline-flex items-center justify-center rounded-md  text-white"
+              className="inline-flex items-center justify-center text-white rounded-md "
               onClick={() => setMobileMenuOpen(true)}
             >
               <span className="sr-only">Open main menu</span>
@@ -74,13 +74,13 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
           </div>
 
 
-          <div className="hidden lg:flex lg:gap-x-12 text-white">
+          <div className="hidden lg:flex lg:gap-x-12">
 
             {navigation.map((item) => {
 
               return (
 
-                <div >
+                <div className="text-white">
                   <Linklg
 
                     page={item.name}

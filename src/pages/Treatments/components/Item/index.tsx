@@ -90,7 +90,7 @@ const index = () => {
     return (
 
         <div className="treatment-background py-14 sm:py-20">
-            <div className="px-6 mx-auto max-w-7xl lg:px-8 mt-2">
+            <div className="px-6 mx-auto mt-2 max-w-7xl lg:px-8">
                 <motion.div
                     initial="hidden"
                     whileInView="visible"
@@ -101,7 +101,7 @@ const index = () => {
                         visible: { opacity: 1, y: 0 },
 
                     }}
-                    className="mx-auto text-center treatment-top-background p-20">
+                    className="p-20 mx-auto text-center treatment-top-background">
                     <motion.h2
                         initial="hidden"
                         whileInView="visible"
@@ -112,7 +112,7 @@ const index = () => {
                             visible: { opacity: 1, y: 0 },
 
                         }}
-                        className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">{Header.topic}</motion.h2>
+                        className="text-4xl font-bold tracking-tight text-white sm:text-5xl">{Header.topic}</motion.h2>
                     <motion.p
                         initial="hidden"
                         whileInView="visible"
@@ -123,15 +123,15 @@ const index = () => {
                             visible: { opacity: 1, y: 0 },
 
                         }}
-                        className="mt-10 font-serif text-xl sm:text-2xl text-black">
+                        className="mt-10 font-serif text-xl text-white sm:text-2xl">
                         {Header.description}
                     </motion.p>
                 </motion.div>
 
-                <div className="grid grid-cols-1 sm:grid-cols-2 m pt-10 mx-auto mt-10 border-t border-gray-200 gap-x-24 gap-y-6 lg:gap-y-10 sm:mt-16 sm:pt-16   ">
+                <div className="grid grid-cols-1 pt-10 mx-auto mt-10 border-t border-gray-200 sm:grid-cols-2 m gap-x-24 gap-y-6 lg:gap-y-10 sm:mt-16 sm:pt-16 ">
                     {posts.map((post) => (
                         <motion.article
-                            className="flex flex-col items-center justify-between p-10 border-2 shadow-2xl rounded-3xl border-rose-600 treatment-item-background"
+                            className="flex flex-col items-center justify-between p-10 text-white shadow-xl rounded-3xl treatment-item-background hover:text-gray-300"
                             initial="hidden"
                             whileInView="visible"
                             viewport={{ once: true, amount: 0.4 }}
@@ -145,7 +145,7 @@ const index = () => {
                             <div className="relative group">
 
                                 <motion.h3
-                                    className="mt-3 text-2xl font-semibold text-center text-gray-900 group-hover:text-gray-600"
+                                    className="mt-3 text-2xl font-semibold text-center "
                                     initial="hidden"
                                     whileInView="visible"
                                     viewport={{ once: true, amount: 0.4 }}

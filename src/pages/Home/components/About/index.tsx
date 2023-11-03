@@ -61,7 +61,7 @@ const index = () => {
                     hidden: { opacity: 0, x: -30 },
                     visible: { opacity: 1, x: 0 },
                   }}
-                  className='font-serif text-base text-justify text-zinc-200 sm:text-2xl lg:text-base me-2 ms-2 sm:me-16 sm:ms-16 lg:me-0 lg:ms-0'>
+                  className='text-base text-justify  text-zinc-200 sm:text-2xl lg:text-base me-2 ms-2 sm:me-16 sm:ms-16 lg:me-0 lg:ms-0'>
                   {item.about}
                 </motion.p>
                 <br />
