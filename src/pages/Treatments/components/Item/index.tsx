@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 
 
 const Header = {
-    topic: "Treatment",
+    topic: "TREATMENT",
     description: "A team of dedicated Ayurveda physiains and therapists to prevent, cure and rejuvenate for optimal health and wellbeing."
 }
 

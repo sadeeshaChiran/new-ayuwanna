@@ -38,8 +38,8 @@ const index = () => {
                         hidden: { opacity: 0, y: -80 },
                         visible: { opacity: 1, y: 0 },
                     }}
-                    className="m-10 text-5xl font-bold text-center text-gray-900 ">
-                        Gallery
+                    className="text-5xl font-bold text-center text-gray-900 m-14 ">
+                        GALLERY
                         </motion.h2>
 
                     <div className="mt-20 space-y-4 gap-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-6">

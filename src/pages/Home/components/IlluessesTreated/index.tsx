@@ -40,7 +40,7 @@ const index = () => {
                             hidden: { opacity: 0, y: -80 },
                             visible: { opacity: 1, y: 0 },
                         }}
-                        className='mt-10 mb-6 text-4xl font-bold tracking-tight text-center text-white sm:text-7xl lg:text-5xl sm:mb-20 lg:mb-6'>
+                        className='mt-20 mb-0 text-4xl font-bold tracking-tight text-center text-white sm:text-7xl lg:text-5xl sm:mb-20 lg:mb-6'>
                         {Topic}
                     </motion.h1>
                     {/* ----------------------------- */}
