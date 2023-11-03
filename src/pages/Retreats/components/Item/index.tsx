@@ -71,7 +71,7 @@ const index = () => {
                             visible: { opacity: 1, y: 0 },
 
                         }}
-                        className="mt-10 font-serif text-xl text-gray-100 sm:text-2xl">
+                        className="mt-10 text-xl text-gray-100 sm:text-2xl">
                         {Header.description}
                     </motion.p>
                 </motion.div>
@@ -96,13 +96,13 @@ const index = () => {
                     </div>
 
 
-                    <div className="grid max-w-2xl grid-cols-1 mx-auto mt-7 sm:mt-0 sm:ms-16 gap-x-24 gap-y-6 lg:max-w-none ">
+                    <div className="grid content-center h-full max-w-2xl grid-cols-1 mx-auto mt-7 sm:mt-0 sm:ms-16 gap-x-24 gap-y-6 lg:max-w-none ">
 
 
 
                         {posts.map((post) => (
                             <motion.article
-                                className="flex flex-col items-center justify-between max-w-xl p-5 text-center text-white shadow-md rounded-3xl retreat-item-background hover:text-gray-200"
+                                className="flex flex-col items-center content-center justify-between p-5 text-center text-white shadow-md rounded-3xl retreat-item-background hover:text-gray-200"
                                 initial="hidden"
                                 whileInView="visible"
                                 viewport={{ once: true, amount: 0.4 }}

@@ -86,7 +86,7 @@ const index = () => {
                             visible: { opacity: 1, y: 0 },
 
                         }}
-                        className="mt-10 font-serif text-xl text-gray-50 sm:text-2xl">
+                        className="mt-10 text-xl text-gray-50 sm:text-2xl">
                         {Header.description}
                     </motion.p>
                 </motion.div>

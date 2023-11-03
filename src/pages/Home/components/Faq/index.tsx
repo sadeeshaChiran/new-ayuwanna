@@ -52,7 +52,7 @@ const index = () => {
                                     hidden: { opacity: 0, x: -20 },
                                     visible: { opacity: 1, x: 0 },
                                 }}
-                                className='mb-3 font-serif text-xl font-extrabold text-justify text-black sm:text-3xl lg:text-3xl '>
+                                className='mb-3 text-xl font-extrabold text-justify text-black sm:text-3xl lg:text-3xl '>
                                 {item.question}
                             </motion.p>
                             {/* ----------------- */}
@@ -67,7 +67,7 @@ const index = () => {
                                     hidden: { opacity: 0, x: 20 },
                                     visible: { opacity: 1, x: 0 },
                                 }}
-                                className='px-3 font-serif text-base font-thin text-justify text-black sm:text-xl lg:text-2xl '>
+                                className='px-3 text-base font-thin text-justify text-black sm:text-xl lg:text-2xl '>
                                 {item.amswer}
                             </motion.p>
                             {/* ------------------- */}
