@@ -102,7 +102,7 @@ const index = () => {
 
                         {posts.map((post) => (
                             <motion.article
-                                className="flex flex-col items-center justify-between max-w-xl p-5 text-center text-white shadow-xl rounded-3xl retreat-item-background hover:text-gray-200"
+                                className="flex flex-col items-center justify-between max-w-xl p-5 text-center text-white shadow-md rounded-3xl retreat-item-background hover:text-gray-200"
                                 initial="hidden"
                                 whileInView="visible"
                                 viewport={{ once: true, amount: 0.4 }}

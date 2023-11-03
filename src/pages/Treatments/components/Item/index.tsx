@@ -131,7 +131,7 @@ const index = () => {
                 <div className="grid grid-cols-1 pt-10 mx-auto mt-10 border-t border-gray-200 sm:grid-cols-2 m gap-x-24 gap-y-6 lg:gap-y-10 sm:mt-16 sm:pt-16 ">
                     {posts.map((post) => (
                         <motion.article
-                            className="flex flex-col items-center justify-between p-10 text-white shadow-xl rounded-3xl treatment-item-background hover:text-gray-300"
+                            className="flex flex-col items-center justify-between p-10 text-white shadow-md rounded-3xl treatment-item-background hover:text-gray-300"
                             initial="hidden"
                             whileInView="visible"
                             viewport={{ once: true, amount: 0.4 }}
